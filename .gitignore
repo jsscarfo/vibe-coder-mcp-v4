@@ -1,0 +1,107 @@
+# Project-specific directories and files
+.env
+workflow-agent-files/
+server.log
+LEGACY COMPONENTS TO RECYCLE/
+V5/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.swp
+*.swo
+*~
+tmp/
+temp/
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+ignored-files.txt
+
+# Generated logs and results
+detailed_logs.txt
+lint-error.txt
+lint-results.txt
+test-results.json
+server.log
+
+# Cline specific files
+.clinerules/
+memory-bank/
+
+# Vibe Coder specific output (New name)
+VibeCoderOutput/
+
+# Local test and configuration files
+cursor_mcp_settings.json
+claude_desktop_config.json
+test-acrs-integration.cjs
+test-acrs-integration.js
+
+# Specific to development environment
+setup-fixed.bat
